@@ -1,0 +1,31 @@
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+li {
+  display: inline;
+  margin-left: 5px;
+}
+
+img {
+  display: block;
+  position: relative;
+  object-fit: contain;
+  height: auto;
+  width: 100%;
+}
+
+figure {
+  padding: 0px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  border: 2px solid black;
+  padding: 2px;
+  text-align: center;
+}

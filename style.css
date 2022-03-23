@@ -1,38 +1,57 @@
-h1 {
-    border: solid;
-    width: 300px;
-    color: red;
-    margin-bottom: 25px;
-    padding: 5px;
-    text-align: center;
-    background-color: sandybrown;
-    box-shadow: 10px 5px 5px;
-    border-radius: 30px;
+@import url(main.css);
+@import url(content.css);
+@import url(global.css);
+
+body {
+    background-color: #447bbe;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    height: 100%;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1rem 1rem 0.2rem;
+    grid-template-areas:
+        "Navbar"
+        "container"
+        "blog text"
+        "footer";
 }
 
-img {
-    border: 3px solid red;
-    width: 300px;
+footer {
+    position: fixed;
+    border: 3px solid black;
+    left: 0;
     padding: 0px;
-    background-color: sandybrown;
-    box-shadow: 10px 5px 5px sandybrown;
-    border-radius: 10px;
-    margin-bottom: 25px;
-  }
-  
-  
-.box {
- border: 2px solid red;
- border-radius: 5px;
- background-color: sandybrown;
- width: 300px;
- height: 250px;
- padding: 5px 5px 5px 5px;
- margin: 0px;
- box-shadow: 10px 5px 5px sandybrown;
-  }
+    bottom: 0;
+    margin-top: auto;
+    width: 100%;
+    background-color: #df1f2d;
+    color: white;
+    text-align: center;
+    font-size: smaller;
+    justify-content: center;
+    justify-items: center;
+    grid-area: "footer";
+}
 
-.column {
-    list-style-type: none;
-    padding: 0;
-  }
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+    font-size: 50px;
+    width: 50px;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
+    font-size: 50px;
+    width: 50px;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    font-size: 50px;
+    width: 50px;
+}
