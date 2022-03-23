@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @internetanthonie
+- 👋 Hi, I’m @internetanthonie or Anthony IRL
 - 👀 HTML,CSS and Javascript proficient
-- 📫 How to reach me @internetanthonie on instagram, or antdg7@gmail.com  ...
+- 📫 How to reach me @internetanthonie anthonydgaitherpm@gmail.com
 
 <!---
 internetanthonie/internetanthonie is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
